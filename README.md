@@ -60,13 +60,14 @@
    ```sh
    cd Uber-Clone-with-REACT-NATIVE
    ```
-4. Open it in terminal and install required packages
+4. Create env file and add your google api key
    ```sh
-   npm install
+   GOOGLE_MAPS_APIKEY=YOUR API
    ```
 5. Run the server
    ```sh
-   npm start  
+   npm run android
+   npm run ios  
    ```
 
 See the [open issues](https://github.com/Alierenkayhan/Uber-Clone-with-REACT-NATIVE/issues) for a full list of proposed features (and known issues).
